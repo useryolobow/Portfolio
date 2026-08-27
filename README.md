@@ -5,4 +5,4 @@ The projects are the folders, or the files. (A lot of these projects don't have 
 
 Also images if you don't want to run them
 
-Projects include in order: Cell simulation (kind of like Conway's Game of Life), algorithmic local chatbot, ASCII webcam, Snake Neural Network, Minimax TicTacToe, and finally a multi-threaded benchmark.
+Projects include in order: Cell simulation (kind of like Conway's Game of Life), algorithmic local chatbot, ASCII webcam, Snake Neural Network, Minimax TicTacToe, and finally a multi-threaded benchmark. (these are not all of my projects, just a fraction, feel free to ask others)
