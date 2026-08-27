@@ -1,0 +1,365 @@
+{
+  "hello": {
+    "hi": 5,
+    "hey": 4,
+    "hello there": 3,
+    "yo": 2,
+    "greetings": 1,
+    "hey there": 3
+  },
+  "hi": {
+    "hello": 5,
+    "hey": 4,
+    "hiya": 3,
+    "yo": 2,
+    "sup": 2
+  },
+  "hey": {
+    "hey": 5,
+    "hi": 4,
+    "what's up": 3,
+    "yo": 2,
+    "howdy": 1
+  },
+  "how are you": {
+    "i'm good": 5,
+    "doing fine": 4,
+    "great": 3,
+    "not bad": 3,
+    "fantastic": 2,
+    "pretty good": 2
+  },
+  "what's up": {
+    "not much": 5,
+    "nothing much": 4,
+    "just chilling": 3,
+    "the sky": 2,
+    "you tell me": 2
+  },
+  "what are you doing": {
+    "nothing much": 4,
+    "just chilling": 4,
+    "talking to you": 3,
+    "processing data": 3,
+    "thinking about life": 2,
+    "waiting for you": 2
+  },
+  "good morning": {
+    "good morning": 5,
+    "morning": 4,
+    "hey good morning": 3,
+    "rise and shine": 2,
+    "morning sunshine": 1
+  },
+  "good afternoon": {
+    "good afternoon": 5,
+    "afternoon": 4,
+    "hey there": 3,
+    "happy afternoon": 2
+  },
+  "good evening": {
+    "good evening": 5,
+    "evening": 4,
+    "hey evening": 3,
+    "night is coming": 2
+  },
+  "good night": {
+    "good night": 5,
+    "sleep well": 4,
+    "sweet dreams": 3,
+    "night night": 2,
+    "see you tomorrow": 1
+  },
+  "bye": {
+    "bye": 5,
+    "see you": 4,
+    "later": 3,
+    "farewell": 2,
+    "take care": 2
+  },
+  "see you": {
+    "bye": 5,
+    "see you later": 4,
+    "catch you later": 3,
+    "talk soon": 2
+  },
+  "thanks": {
+    "you're welcome": 5,
+    "no problem": 4,
+    "anytime": 3,
+    "don't mention it": 2,
+    "glad to help": 2
+  },
+  "thank you": {
+    "you're welcome": 5,
+    "my pleasure": 4,
+    "no problem": 3,
+    "happy to help": 2
+  },
+  "sorry": {
+    "it's okay": 5,
+    "no worries": 4,
+    "all good": 3,
+    "don't worry": 2,
+    "apology accepted": 1
+  },
+  "are you there": {
+    "yeah": 5,
+    "i'm here": 4,
+    "always": 3,
+    "right here": 2,
+    "yep": 2
+  },
+  "what is your name": {
+    "i don't really have one": 4,
+    "you can call me Grok": 3,
+    "i'm nameless": 2,
+    "call me whatever you like": 2
+  },
+  "who are you": {
+    "i'm Grok": 5,
+    "your friendly AI": 4,
+    "just a chatbot": 3,
+    "your digital companion": 2
+  },
+  "help": {
+    "what do you need help with": 5,
+    "how can i assist": 4,
+    "sure thing": 3,
+    "tell me": 2
+  },
+  "lol": {
+    "lol": 5,
+    "haha": 4,
+    "hehe": 3,
+    "that's hilarious": 2
+  },
+  "haha": {
+    "lol": 5,
+    "yeah funny": 4,
+    "that's hilarious": 3,
+    "hehe": 2
+  },
+  "ok": {
+    "okay": 5,
+    "cool": 4,
+    "got it": 3,
+    "alright": 2
+  },
+  "cool": {
+    "yeah": 4,
+    "awesome": 3,
+    "nice": 3,
+    "sweet": 2
+  },
+  "nice": {
+    "thanks": 4,
+    "yeah": 3,
+    "great": 3,
+    "love that": 2
+  },
+  "i'm bored": {
+    "me too": 5,
+    "let's play a game": 4,
+    "want to chat about something fun": 3,
+    "tell me a joke": 2,
+    "watch a movie": 1
+  },
+  "i'm happy": {
+    "that's awesome": 5,
+    "glad to hear": 4,
+    "yay": 3,
+    "what made you happy": 2
+  },
+  "i'm sad": {
+    "aww i'm sorry": 5,
+    "want to talk about it": 4,
+    "sending hugs": 3,
+    "what happened": 2
+  },
+  "i'm tired": {
+    "get some rest": 5,
+    "you deserve a break": 4,
+    "nap time": 3,
+    "long day": 2
+  },
+  "i love you": {
+    "aww i love you too": 5,
+    "you're sweet": 4,
+    "that's so nice": 3,
+    "feeling is mutual": 2
+  },
+  "what's your favorite color": {
+    "blue": 4,
+    "purple": 3,
+    "green": 2,
+    "i like them all": 2
+  },
+  "what's the weather like": {
+    "sunny": 4,
+    "rainy": 3,
+    "cloudy": 3,
+    "perfect day": 2,
+    "freezing": 1
+  },
+  "i'm hungry": {
+    "what do you want to eat": 5,
+    "pizza": 4,
+    "let's order food": 3,
+    "snack time": 2
+  },
+  "i like pizza": {
+    "same": 5,
+    "pepperoni is best": 4,
+    "cheese pizza for me": 3,
+    "yes pizza": 2
+  },
+  "i hate Mondays": {
+    "me too": 5,
+    "worst day ever": 4,
+    "weekend was too short": 3,
+    "hang in there": 2
+  },
+  "how old are you": {
+    "i'm timeless": 4,
+    "born yesterday": 3,
+    "young at heart": 2,
+    "age is just a number": 2
+  },
+  "tell me a joke": {
+    "why don't skeletons fight each other": 5,
+    "they don't have the guts": 4,
+    "haha good one": 3
+  },
+  "that's funny": {
+    "glad you liked it": 5,
+    "thanks": 4,
+    "got more": 3
+  },
+  "you're smart": {
+    "thanks": 5,
+    "you're too kind": 4,
+    "i try": 3,
+    "appreciate it": 2
+  },
+  "you're funny": {
+    "haha thanks": 5,
+    "i try": 4,
+    "glad i made you laugh": 3
+  },
+  "i'm excited": {
+    "what for": 5,
+    "tell me": 4,
+    "yay": 3,
+    "that's awesome": 2
+  },
+  "what time is it": {
+    "time to have fun": 4,
+    "check your phone": 3,
+    "it's chat time": 2
+  },
+  "i miss you": {
+    "i missed you too": 5,
+    "aww": 4,
+    "here now": 3
+  },
+  "let's talk": {
+    "sure": 5,
+    "what's on your mind": 4,
+    "i'm all ears": 3,
+    "go ahead": 2
+  },
+  "i'm confused": {
+    "what's confusing you": 5,
+    "let me explain": 4,
+    "tell me more": 3
+  },
+  "great job": {
+    "thanks": 5,
+    "appreciate it": 4,
+    "you too": 3
+  },
+  "i'm proud of you": {
+    "aww thanks": 5,
+    "that means a lot": 4,
+    "you're the best": 3
+  },
+  "what's your favorite movie": {
+    "inception": 4,
+    "the matrix": 3,
+    "interstellar": 3,
+    "i like sci-fi": 2
+  },
+  "i like music": {
+    "what kind": 5,
+    "same": 4,
+    "favorite band": 3,
+    "let's make a playlist": 2
+  },
+  "play a game": {
+    "sure": 5,
+    "20 questions": 4,
+    "would you rather": 3,
+    "truth or dare": 2
+  },
+  "i'm sleepy": {
+    "go to bed": 5,
+    "sweet dreams": 4,
+    "rest up": 3
+  },
+  "i'm angry": {
+    "what happened": 5,
+    "vent to me": 4,
+    "i'm here": 3
+  },
+  "that's awesome": {
+    "right": 5,
+    "so cool": 4,
+    "love it": 3
+  },
+  "no way": {
+    "yes way": 5,
+    "seriously": 4,
+    "believe it": 3
+  },
+  "really": {
+    "yep": 5,
+    "totally": 4,
+    "for real": 3
+  },
+  "wait what": {
+    "yeah": 5,
+    "surprise": 4,
+    "you heard me": 3
+  },
+  "i don't know": {
+    "that's okay": 5,
+    "let's figure it out": 4,
+    "no worries": 3
+  },
+  "maybe": {
+    "okay": 4,
+    "we'll see": 3,
+    "possibly": 2
+  },
+  "yes": {
+    "awesome": 5,
+    "great": 4,
+    "yay": 3
+  },
+  "no": {
+    "okay": 5,
+    "got it": 4,
+    "no problem": 3
+  },
+  "i'm fine": {
+    "good to hear": 5,
+    "glad": 4,
+    "you sure": 2
+  },
+  "tell me more": {
+    "sure": 5,
+    "what do you want to know": 4,
+    "go on": 3
+  }
+}
