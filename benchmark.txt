@@ -1,0 +1,66 @@
+from multiprocessing import Process
+import multiprocessing
+import time
+import sys
+import platform
+import os
+cores = []
+s_mode = False
+print(f"CPU cores: {multiprocessing.cpu_count()}")
+print(f"{platform.processor()}\n")
+with open("/proc/cpuinfo") as f:
+    for line in f:
+        if "model name" in line:
+            print(line.strip())
+            break
+start_time = time.time()
+max_score = 100000
+ivalue = 3000
+jvalue = 3000
+def map_value(value, start1, stop1, start2, stop2):
+    return (value - start1) / (stop1 - start1) * (stop2 - start2) + start2
+def worker(name,iv,jv):
+    current = 0
+    total = ivalue*jvalue
+    for i in range(iv):
+        for j in range(jv):
+            math_num = 300**40*i/1.25
+            math_num = math_num/43 * 321 -i**5
+            current += 1
+            progress = (current / total)
+            length = 50
+            filled_length = int(length * (progress))
+            bar = '#' * filled_length + '-' * (length - filled_length)
+            print(f'\r|{bar}| {progress:.0%}', end='\r')
+while True:
+    mode = input("Enter mode: ")
+    if mode == "m":
+        for i in range(multiprocessing.cpu_count()):
+            cores.append(Process(target=worker,args=(f"Process {i}",ivalue,jvalue,)))
+        break
+    elif mode == "s":
+        ivalue *= multiprocessing.cpu_count()
+        jvalue *= multiprocessing.cpu_count()
+        s_mode = True
+        break
+    else:
+        print("enter s or m")
+start = input("Press any key to start: ")
+print(f"active cores {len(cores)}")
+for i in range(len(cores)):
+    cores[i].start()
+for i in  range(len(cores)):
+    cores[i].join()
+if s_mode == True:
+    worker("Process 1", ivalue,jvalue)
+print("\nAll processes finished")
+end_time = time.time()
+elapsed = end_time - start_time
+
+print(f"Program finished in: {elapsed:.2f} seconds")
+score = max_score/(elapsed)
+print(f"CPU Score: {int(score)} points")
+
+
+
+

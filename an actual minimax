@@ -1,0 +1,65 @@
+class MiniMax:
+	def __init__(self,game,x,y):
+		print("full py minimax Version 1 DeepPyBranch")
+		print("______________________________________")
+		print(" ")
+		self.x = x
+		self.y = y
+		self.game = game
+	def get_move(self,board,player):
+		if player == "X":
+			best_score = -1000
+			move = []
+			for i in range(self.y):
+				for j in range(self.x):
+					if board[i][j] == " ":
+						board[i][j] = "X"
+						score = self.evaluation(9,board,"O")
+						board[i][j] = " "
+						if score > best_score:
+							best_score = score
+							move = [i,j]
+			board[move[0]][move[1]] = "X"
+		if player == "O":
+			best_score = 1000
+			move = []
+			for i in range(self.y):
+				for j in range(self.x):
+					if board[i][j] == " ":
+						board[i][j] = "O"
+						score = self.evaluation(9,board,"X")
+						board[i][j] = " "
+						if score < best_score:
+							best_score = score
+							move = [i,j]
+			board[move[0]][move[1]] = "O"
+		print("Bot finished thinking...")
+
+
+	def evaluation(self,depth,board,player):
+		self.scores = {"X":1,"O":-1,"tie":0}
+		result = self.game.game_state(board)
+		if result != None:
+			return self.scores[result]
+		if depth <= 0:
+			return 0
+		if player == "X":
+			best_score = -1000
+			for i in range(self.y):
+				for j in range(self.x):
+					if board[i][j] == " ":
+						board[i][j] = "X"
+						score = self.evaluation(depth-1,board,"O")
+						board[i][j] = " "
+						best_score = max(score,best_score)
+			return best_score
+		else:
+			best_score = 1000
+			for i in range(self.y):
+				for j in range(self.x):
+					if board[i][j] == " ":
+						board[i][j] = "O"
+						score = self.evaluation(depth-1,board,"X")
+						board[i][j] = " "
+						best_score = min(score,best_score)
+			return best_score
